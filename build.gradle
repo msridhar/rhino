@@ -367,11 +367,12 @@ publishing {
     }
 }
 
+
 signing {
-    useGpgCmd()
+/*    useGpgCmd()
     sign publishing.publications.rhino
     sign publishing.publications.rhinoengine
-    sign publishing.publications.rhinoruntime
+    sign publishing.publications.rhinoruntime */
 }
 
 spotbugs {
